@@ -149,10 +149,12 @@ print(response)
 # Anarchy is a political philosophy that advocates no government...
 ```
 
+### alternative model_uri  
 
 #### Neo Model 
- | URI | Model Params | Checkpoint file size | Is Default?
- -----------------------------------------------------------
+
+| URI | Model Params | Checkpoint file size | Is Default? |
+-----------------------------------------------------------
 | EleutherAI/gpt-neo-125m | 125m | 526 MB | ❌
 | EleutherAI/gpt-neo-1.3B | 1.3B | 5.31 GB | ✅
 | EleutherAI/gpt-neo-2.7B | 2.7B | 10.7 GB | ❌
@@ -160,8 +162,8 @@ print(response)
 
 #### Bloom Model  
 
- | URI | Model Params | Checkpoint file size | Is Default?
- -----------------------------------------------------------
+| URI | Model Params | Checkpoint file size | Is Default? |
+-----------------------------------------------------------
 | bigscience/bloom-560m | 1.7B | 1.12 GB | ✅
 | bigscience/bloom-1b7/ | 1.7B | 3.4GB   | ❌
 | bigscience/bloom-3b | 3B | 6.01 GB     | ❌
@@ -170,7 +172,7 @@ print(response)
 
 #### Open Llama
 
-| URI | Model Params | Checkpoint file size | Is Default?
+| URI | Model Params | Checkpoint file size | Is Default? |
 -----------------------------------------------------------
 | openlm-research/open_llama_3b_v2 | 3B  | 6.85 GB | ✅
 | openlm-research/open_llama_7b_v2  | 7B | 13 GB   | ❌
@@ -180,7 +182,7 @@ print(response)
 
 #### OPT
 
-| URI | Model Params | Checkpoint file size | Is Default?
+| URI | Model Params | Checkpoint file size | Is Default? |
 -----------------------------------------------------------
 | facebook/opt-125m  | 125mm | 250 MB   | ❌
 | facebook/opt-350m | 350m | 622 MB  | ✅
