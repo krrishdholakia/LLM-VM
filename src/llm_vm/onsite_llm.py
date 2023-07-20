@@ -22,6 +22,9 @@ import json
 import os
 import torch
 
+# because
+os.environ["WANDB_DISABLED"] = "true"
+
 
 # this is a hack till we add dynaconf or something?
 homepath = os.environ.get("HOME")

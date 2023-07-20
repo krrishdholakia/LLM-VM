@@ -4,6 +4,8 @@ from llm_vm.agents.REBEL import agent
 from llm_vm.completion.optimize import LocalOptimizer
 import os
 
+#
+os.environ["WANDB_DISABLED"] ="true"
 
 # Dictionary of models to be loaded in ModelConfig
 def load_model_closure(model_name):
