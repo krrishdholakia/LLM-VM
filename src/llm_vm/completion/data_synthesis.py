@@ -35,7 +35,7 @@ class DataSynthesis:
                example_str = '{"prompt": "' + p +'"  , "response": "' + str(response[idx]) +'" }'+example_delim+'\n'
                json_str += example_str
             final_prompt = json_str 
-        final_prompt = "Generate 50 more jsons like the ones below. Use "+example_delim+" as a delimeter between JSONs.\n" + final_prompt
+        final_prompt = "Generate 50 more jsons like the ones below. Use "+example_delim+" as a delimiter between JSONs.\n" + final_prompt
         print(final_prompt)
         data = None       
         openai.api_key=openai_key
